@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MagicDish - Amazing & Delicious Food</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">MagicDish</p>
+  </div>
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Str. Miron Costin 26/2
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Luni-Duminică 8:00 - 22:00</span>
+      </div>
+
+      <a href="tel: +373 608 50 407" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+373 608 50 407</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:rezervare@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">rezervare@restaurant.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <h1>MagicDish</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <h1>MagicDish</h1>        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Meniu</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Despre noi</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Evenimente următoare</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contacte</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Str. Miron Costin 26/2 
+          </address>
+
+          <p class="body-4 navbar-text">Luni - Duminică: 8:00 - 22:00</p>
+
+          <a href="mailto:rezervare@restaurant.com" class="body-4 sidebar-link">rezervare@restaurant.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+373 608 50 407" class="body-1 contact-number hover-underline">
+            +373 608 50 407
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Rezervează o masă</span>
+
+        <span class="text text-2" aria-hidden="true">Rezervează o masă</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Pentru adevărații <br>
+              gurmanzi
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Vino cu familia și petreceți timpul perfect împreună
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Vezi meniul nostru</span>
+
+              <span class="text text-2" aria-hidden="true">Vezi meniul nostru</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Experiență frumoasă</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Gusturi unice<br>
+              Special pentru tine
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Vino cu familia și petreceți timpul perfect împreună
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Vezi meniul nostru</span>
+
+              <span class="text text-2" aria-hidden="true">Vezi meniul nostru</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">încântător și delicios</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Acolo unde fiecare gust <br>
+              relatează o istorie
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Vino cu familia și petreceți timpul perfect împreună
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">Vezi meniul nostru</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Rezervează o masă</span>
+        </a>
+
+      </section>
+
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Arome pentru cei mai speciali</p>
+
+          <h2 class="headline-1 section-title">Oferim bucate de top</h2>
+
+          <p class="section-text">
+            Încântați-vă simțurile cu meniul nostru divers, creat de bucătarii noștri talentați, care prezintă o fuziune de arome din întreaga lume.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Mic-dejun"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Mic-dejun</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Vezi meniul</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Aperitive"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Aperitive</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Vezi meniul</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Bauturi"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Băuturi</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Vezi meniul</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Povestea Noastră</p>
+
+            <h2 class="headline-1 section-title">Fiecare Gust Relatează o Istorie</h2>
+
+            <p class="section-text">
+              Începuturile noastre au fost modeste, dar pasiunea noastră pentru arta culinară și angajamentul față de calitate au fost întotdeauna la baza tuturor acțiunilor noastre. Cu fiecare an care a trecut, am evoluat și ne-am adaptat pentru a răspunde cerințelor și preferințelor clienților noștri fideli.
+            </p>
+
+            <div class="contact-label">Rezervează prin Apel</div>
+
+            <a href="tel:+373 608 50 407" class="body-1 contact-number hover-underline">+373 608 50 407</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Mai mult</span>
+
+              <span class="text text-2" aria-hidden="true">Mai mult</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Oferta Zilei</p>
+
+            <h2 class="headline-1 section-title">Lobster Tortellini</h2>
+
+            <p class="section-text">
+              Delicat și rafinat, tortellini cu homar reprezintă o capodoperă culinară ce îmbină gustul subtil al homarului cu aroma bogată a pastelor proaspete. La MagicDish, ne mândrim să vă oferim o experiență culinară de neuitat prin intermediul acestui preparat excepțional.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">800 MDL</del>
+
+              <span class="span body-1">400 MDL</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Vezi tot meniul</span>
+
+              <span class="text text-2" aria-hidden="true">Vezi tot meniul</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <h2 class="headline-1 section-title text-center">Meniul Delicios</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Salată Grecească</a>
+                    </h3>
+
+                    <span class="badge label-1">De Sezon</span>
+
+                    <span class="span title-2">150 MDL</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Castraveți, Roșii, Ardei, Brânză Feta, Măsline
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lasagna</a>
+                    </h3>
+
+                    <span class="span title-2">300 MDL</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Legume, Cașcaval, Carne tocată, Sos de tomate
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Gustare cu Dovleac</a>
+                    </h3>
+
+                    <span class="span title-2">100 MDL</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Chips-uri din Dovleac, Hummus
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tokusen Wagyu</a>
+                    </h3>
+
+                    <span class="badge label-1">New</span>
+
+                    <span class="span title-2">400 MDL</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Carne de vită Wagyu, Legume
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Sushi pe platou</a>
+                    </h3>
+
+                    <span class="span title-2">300 MDL</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Orez, Avocado, Somon, Brânză Philadelphia
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Creveți cu Orez</a>
+                    </h3>
+
+                    <span class="span title-2">300 MDL</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Legume, Creveți, Orez
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center">
+            Pe timp de iarnă de la <span class="span">19:00</span> până la <span class="span">21:00</span>
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">Vezi tot meniul</span>
+
+            <span class="text text-2" aria-hidden="true">Vezi tot meniul</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            De la momentul în care am intrat, am fost întâmpinați cu un zâmbet cald și o atenție deosebită din partea personalului. Ambianța restaurantului era elegantă și primitoare, iar decorul de bun gust contribuia la crearea unei atmosfere relaxante și sofisticate.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+              class="img">
+
+            <p class="label-2 profile-name">Alexandru Ciobanu</p>
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Rezervare Online</h2>
+
+              <p class="form-text text-center">
+                Rezervare <a href="tel:+373 608 50 407" class="link">+373 608 50 407</a>
+                sau completați formularul
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Numele, Prenumele" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Telefon" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="08:00">08 : 00</option>
+                    <option value="09:00">09 : 00</option>
+                    <option value="10:00">10 : 00</option>
+                    <option value="11:00">11 : 00</option>
+                    <option value="12:00">12 : 00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                    <option value="18:00">18:00</option>
+                    <option value="19:00">19:00</option>
+                    <option value="20:00">20:00</option>
+                    <option value="21:00">21:00</option>
+                    <option value="22:00">22:00</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Mesaj" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Rezervează</span>
+
+                <span class="text text-2" aria-hidden="true">Rezervează</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contactează-ne</h2>
+
+              <p class="contact-label">Rezervare</p>
+
+              <a href="tel:+373 608 50 407" class="body-1 contact-number hover-underline">+373 608 50 407</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Adresă</p>
+
+              <address class="body-4">
+                Str. Miron Costin 26/2
+              </address>
+
+              <p class="contact-label">Prânzul</p>
+
+              <p class="body-4">
+                Luni - Duminică <br>
+                11.00 - 14.30
+              </p>
+
+              <p class="contact-label">Cina</p>
+
+              <p class="body-4">
+                Luni - Duminică <br>
+                17.00 - 22.00
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">De ce să ne alegi pe noi?</p>
+
+          <h2 class="headline-1 section-title">Punctele Forte ale Noastre</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Igienă la muncă</h3>
+
+                <p class="label-1 card-text">Igiena este un aspect crucial în orice afacere care operează în industria alimentară, iar în special într-un restaurant.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Mediu Fresh</h3>
+
+                <p class="label-1 card-text">În MagicDish, ne străduim să creăm un mediu fresh și vibrant care să reflecte spiritul nostru gastronomic și să ofere o experiență autentică clienților noștri. </p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Bucătari Profesionali</h3>
+
+                <p class="label-1 card-text">Bucătarii profesioniști sunt artiști ai gastronomiei, ale căror talente și abilități transformă ingredientele simple în capodopere culinare.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Organizarea Evenimentelor</h3>
+
+                <p class="label-1 card-text">Organizarea evenimentelor este o artă care implică planificare, coordonare și gestionarea tuturor aspectelor pentru a asigura succesul și satisfacția participanților.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recente</p>
+
+          <h2 class="section-title headline-1 text-center">Evenimente următoare</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/05/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Bucate, Gusturi</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Gustul bun, în fiecare mușcătură
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">08/06/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Mâncarea sănătoasă</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Gustul sănătos al vieții începe la masă
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">03/07/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Aniversarea noastră</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    O aventură gustativă în fiecare farfurie
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">Vezi blogul nostru</span>
+
+            <span class="text text-2" aria-hidden="true">Vezi blogul nostru</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <h1>MagicDish</h1>          </a>
+
+          <address class="body-4">
+            Str. Miron Costin 26/2
+          </address>
+
+          <a href="mailto:rezervare@restaurant.com" class="body-4 contact-link">rezervare@restaurant.com</a>
+
+          <a href="tel:+373 608 50 407" class="body-4 contact-link">Rezervare : +373 608 50 407</a>
+
+          <p class="body-4">
+            Grafic : 08:00 - 22:00
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Află Noutățile și Ofertele</p>
+
+          <p class="label-1">
+            Abonează-te și primește <span class="span">25% Reducere.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="E-mail" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Abonează-te</span>
+
+              <span class="text text-2" aria-hidden="true">Abonează-te</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Meniu</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Despre Noi</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Evenimente următoare</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contacte</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 MagicDish. All Rights Reserved 
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
